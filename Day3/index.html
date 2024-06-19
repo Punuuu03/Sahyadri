@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-nav">
+        <div class="logo">Admin Dashboard</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="@">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Dashboard</a></li>
+                <li><a href="#">User</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <div class="card">
+            <h2>Summary</h2>
+            <p>This is where you can get an overview of your admin dashboard.</p>
+        </div>
+
+        <div class="widgets">
+            <div class="widget">
+                <h3>Users</h3>
+                <p>Total Users: <span id="totalUsers">1000</span></p>
+            </div>
+            <div class="widget">
+                <h3>Products</h3>
+                <p>Total Products: <span id="totalProducts">10000</span></p>
+            </div>
+            <div class="widget">
+                <h3>Orders</h3>
+                <p>Total Orders: <span id="totalRevenue">5000</span></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>User Management</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>John</td>
+                        <td>john@example.com</td>
+                        <td><button class="btn">Edit</button> <button class="btn">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Neha</td>
+                        <td>neha@example.com</td>
+                        <td><button class="btn">Edit</button> <button class="btn">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ram</td>
+                        <td>ram@example.com</td>
+                        <td><button class="btn">Edit</button> <button class="btn">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Prisha</td>
+                        <td>prisha@example.com</td>
+                        <td><button class="btn">Edit</button> <button class="btn">Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 Dashboard. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
