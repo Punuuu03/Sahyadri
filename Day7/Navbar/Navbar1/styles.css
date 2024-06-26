@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1E2A38;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact a {
+    color: #FFCC00;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.search-login {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    margin-right: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+.auth-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.auth-buttons .login {
+    background-color:#1E2A38;
+    border: solid 2px #FF6600;
+    color: #fff;
+}
+
+.auth-buttons .register {
+    background-color: #FFCC00;
+    color: #fff;
+}

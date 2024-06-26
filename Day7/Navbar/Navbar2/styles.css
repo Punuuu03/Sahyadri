@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3dbcd;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons button {
+    border: 2px solid #f39c12;
+    padding: 5px 15px;
+    margin-left: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-buttons .login {
+    color: #333;
+}
+
+.auth-buttons .login:hover {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.auth-buttons .register {
+    color: #fff;
+    background-color: #f39c12;
+}
+
+.auth-buttons .register:hover {
+    background-color: transparent;
+    color: #f39c12;
+}
